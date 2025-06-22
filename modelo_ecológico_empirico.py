@@ -311,7 +311,7 @@ print(f"Colapso (5%): {colapso_tend if colapso_tend is not None else 'Não ocorr
 print(f"Floresta em 2050: {porcentagem_floresta(x_tend, 2050):.1f}%")
 print(f"Floresta em 2100: {porcentagem_floresta(x_tend, 2100):.1f}%")
 print(f"Floresta em 2250: {x_tend[-1]*100:.1f}%")
-print("Dinâmica: Declínio gradual após 2085, colapso total em 2140")
+print("Dinâmica: Declínio gradual, mas mantendo-se acima do limiar crítico")
 # =================================================================
 print("\n=== CENÁRIO PESSIMISTA ===")
 print(f"Tipping Point (20%): {tip_pess if tip_pess is not None else 'Não atingido'}")
@@ -320,7 +320,7 @@ print(f"Colapso (5%): {colapso_pess if colapso_pess is not None else 'Não ocorr
 print(f"Floresta em 2040: {porcentagem_floresta(x_pess, 2040):.1f}%")
 print(f"Floresta em 2050: {porcentagem_floresta(x_pess, 2050):.1f}%")
 print(f"Pressão máxima: {np.max(y_pess)*100:.1f}%")
-print("Dinâmica: Colapso acelerado após 2036, perda total em 2048")
+print("Dinâmica: Colapso acelerado após tipping point em 2050, perda total em 2058")
 # =================================================================
 print("\n=== METAS CRÍTICAS ===")
 print("Máximo desmatamento anual sustentável: 0.15%")
