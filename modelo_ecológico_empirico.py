@@ -33,8 +33,8 @@ Parâmetros Chave:
 Dependências: Python 3.11+, numpy, matplotlib, pandas, numba (JIT)
 
 Referências
-1. Nobre et al. (2016) - Amazon Tipping Point
-2. PRODES/INPE - Dados de desmatamento
+1. Nobre & Borma. (2009) - Amazon Tipping Point
+2. PRODES/INPE (2000-2024)- Dados de desmatamento
 3. Lovejoy & Nobre (2018) - Amazon Tipping Point
 
 Direitos Autorais : (c) 2025 José Felipe Souza de Almeida - Licença MIT
