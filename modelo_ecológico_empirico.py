@@ -329,10 +329,11 @@ print("Pressão acumulada máxima: < 22%")
 print("Janela de ação efetiva: 2024-2035")
 # =================================================================
 print("\n" + "="*80)
-print("CONCLUSÕES")
+print("ALERTAS")
 print("Manter o desmatamento abaixo de 0.15% é crucial para evitar transição")
 print("Ações imediatas podem estabilizar o sistema acima de 40% de floresta")
 print("Eventos climáticos extremos podem acelerar o colapso em até 30%")
+print("Caso nada seja feito em breve não haverá mais floresta para desmatar")
 print("="*80)
 # Gráficos
 print("\nSimulação concluída com sucesso!")
